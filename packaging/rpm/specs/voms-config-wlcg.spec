@@ -19,7 +19,7 @@ Virtual Organization (VO) of The Worldwide LHC Computing Grid (WLCG)
 
 %clean
 rm -rf %{buildroot};
-make clean
+
 
 %prep
 %setup -q

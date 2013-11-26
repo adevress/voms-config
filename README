@@ -1,0 +1,29 @@
+
+	VOMS ENVIRONMENT FOR WLCG
+
+Description: 
+voms-config-wlcg is a package to setup a VOMS environment for wlcg.
+
+
+Support:
+This package is provided for an easy deployment of a wlcg environment.
+It installs vomses and vomsdir files for the usual WLCG Virtual Organizations :
+
+- alice
+- atlas
+- cms
+- dteam
+- lhcb
+- geant4
+- sixtrack
+
+Official list here : http://wlcg.web.cern.ch/getting-started/VO
+
+Other VO (ex: from EGI or OSGC ) are not supported officialy, but can be still be included if needed.
+Please contact us for more details.
+
+
+
+Contact:
+lcgutil-devel@cern.ch
+

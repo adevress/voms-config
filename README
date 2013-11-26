@@ -22,6 +22,12 @@ Official list here : http://wlcg.web.cern.ch/getting-started/VO
 Other VO (ex: from EGI or OSGC ) are not supported officialy, but can be still be included if needed.
 Please contact us for more details.
 
+Usage:
+- Install EGI trust anchor repository or WLCG one 
+	- https://wiki.egi.eu/wiki/EGI_IGTF_Release
+	- http://linuxsoft.cern.ch/LCG-CAs/current/
+- Install voms-client voms-config-wlcg lcg-CA
+- Rock & roll  
 
 
 Contact:

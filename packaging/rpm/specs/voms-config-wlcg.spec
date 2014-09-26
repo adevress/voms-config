@@ -1,5 +1,5 @@
 Name:				voms-config-wlcg
-Version:			1.0.0
+Version:			1.0.1
 Release:			1%{?dist}
 Summary:			VOMS Environment for wlcg clients
 Group:				Applications/Internet
@@ -37,6 +37,9 @@ make DESTDIR=%{buildroot} install
 %doc README
 
 %changelog
-* Thu Nov 07 2013 Adrien Devresse <adevress at cern.ch>  
+* Fri Sep 26 2014 Adrien Devresse <adevress at cern.ch> - 1.0.1-1
+ - Update for SHA2 Update
+
+* Thu Nov 07 2013 Adrien Devresse <adevress at cern.ch> - 1.0.0
  - Initial version of voms config wlcg
 
